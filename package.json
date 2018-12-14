@@ -15,7 +15,7 @@
     "import:loc-strings": "node util-scripts\\bundle-loc-files.js",
     "rollup": "rollup -c rollup-config.js",
     "lint": "tslint --project src/tsconfig.json -c tslint.json",
-    "build-commit": "npm run build && git commit -am \"Adds new build files in dist/\""
+    "build-commit": "npm run build:prod && git commit -am \"Adds new build files in dist/\""
   },
   "author": "",
   "devDependencies": {
